@@ -27,6 +27,13 @@ FINANCIAL_TAGS = {
     "operating_cash_flow": ["NetCashProvidedByUsedInOperatingActivities"],
     "capex": ["PaymentsToAcquirePropertyPlantAndEquipment"],
     "equity": ["StockholdersEquity", "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"],
+    "cash": ["CashAndCashEquivalentsAtCarryingValue"],
+    "assets": ["Assets"],
+    "liabilities": ["Liabilities"],
+    "long_term_debt": ["LongTermDebtCurrent", "LongTermDebtNoncurrent", "LongTermDebt"],
+    "dividends_paid": ["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"],
+    "repurchases": ["PaymentsForRepurchaseOfCommonStock"],
+    "dividend_per_share": ["CommonStockDividendsPerShareDeclared"],
 }
 
 def get_json(url: str, agent: str):
@@ -75,8 +82,18 @@ def latest_metric(facts, tags, unit="USD", annual_only=True):
     # then the preferred concept if the reporting dates match.
     candidates.sort(key=lambda r:(r[0],r[1],r[2]))
     _,_,_,tag,x=candidates[-1]
-    return {"value":x["val"],"period_start":x.get("start"),"period_end":x["end"],
+    result={"value":x["val"],"period_start":x.get("start"),"period_end":x["end"],
             "filed":x.get("filed"),"taxonomy":"us-gaap","concept":tag}
+    if annual_only:
+        # Use one earlier same-concept annual fiscal period. Do not combine quarters.
+        earlier=[r for _,_,_,tag2,r in candidates if tag2==tag
+                 and r.get("end") and 300 <= (iso_day(x["end"])-iso_day(r["end"])).days <= 430]
+        if earlier:
+            earlier.sort(key=lambda r:(r["end"],r.get("filed","")))
+            previous=earlier[-1]
+            result["prior_annual_value"]=previous["val"]
+            result["prior_annual_period_end"]=previous["end"]
+    return result
 
 def extract_shares(facts):
     # Prefer DEI entity-wide disclosure; avoid mixing class-specific counts.
@@ -107,7 +124,7 @@ def collect(ticker, cik, name, agent):
         # can represent only a small part of a bank's operating revenue.
         if ticker in {"SOFI"} and key=="revenue":
             continue
-        value=latest_metric(facts,tags, unit="USD/shares" if key=="diluted_eps" else "USD",annual_only=key!="equity")
+        value=latest_metric(facts,tags, unit="USD/shares" if key in {"diluted_eps","dividend_per_share"} else "USD",annual_only=key not in {"equity","cash","assets","liabilities","long_term_debt"})
         if value:
             value["source_url"]=url
             metrics[key]=value
