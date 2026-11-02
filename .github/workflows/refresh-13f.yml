@@ -1,0 +1,35 @@
+name: Import official quarterly SEC Form 13F holdings
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 8 19 * *'
+permissions:
+  contents: write
+concurrency:
+  group: sec-quarterly-13f
+  cancel-in-progress: false
+jobs:
+  holdings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate importer
+        run: python -m py_compile scripts/update_institutions.py
+      - name: Import SEC published 13F data (potentially large download)
+        env:
+          SEC_CONTACT_EMAIL: ${{ vars.SEC_CONTACT_EMAIL }}
+        run: python scripts/update_institutions.py
+      - name: Commit verified issuer-name matches
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/institutions.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update SEC quarterly 13F issuer holdings"
+            git pull --rebase
+            git push
+          fi
