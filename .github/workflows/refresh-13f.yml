@@ -1,6 +1,9 @@
 name: Import official quarterly SEC Form 13F holdings
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_institutions.py'
   schedule:
     - cron: '41 8 19 * *'
 permissions:
