@@ -130,3 +130,5 @@ def main():
         "tickers":result}
     OUT.write_text(json.dumps(output,separators=(",",":"))+"\n")
 if __name__=="__main__":main()
+
+# Validation/deployment trigger: official-source collector only.
