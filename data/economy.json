@@ -1,0 +1,7 @@
+{
+  "updated_at": null,
+  "source": "BLS Public API and US Treasury Fiscal Data API",
+  "bls": {},
+  "treasury": {},
+  "note": "Official observations will populate on successful scheduled data collection. Dates indicate observation period, not quote time."
+}
