@@ -1,0 +1,486 @@
+{
+  "updated_at": "2026-11-02",
+  "seed_note": "Starter snapshot from previously collected SEC filing facts; refresh via GitHub Actions using SEC_CONTACT_EMAIL before production.",
+  "source": "SEC EDGAR XBRL filings",
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "cik": "0000320193",
+      "metrics": {
+        "revenue": {
+          "value": 416161000000,
+          "period_start": "2024-09-29",
+          "period_end": "2025-09-27",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json"
+        },
+        "net_income": {
+          "value": 112010000000,
+          "period_start": "2024-09-29",
+          "period_end": "2025-09-27",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json"
+        },
+        "diluted_eps": {
+          "value": 7.46,
+          "period_start": "2024-09-29",
+          "period_end": "2025-09-27",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json"
+        },
+        "operating_cash_flow": {
+          "value": 111482000000,
+          "period_start": "2024-09-29",
+          "period_end": "2025-09-27",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json"
+        },
+        "capex": {
+          "value": 12715000000,
+          "period_start": "2024-09-29",
+          "period_end": "2025-09-27",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json"
+        },
+        "equity": {
+          "value": 107520000000,
+          "period_start": null,
+          "period_end": "2026-06-27",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json"
+        }
+      },
+      "shares_history": [
+        {
+          "date": "2024-10-18",
+          "shares": 15115823000,
+          "form": "10-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/"
+        },
+        {
+          "date": "2025-01-17",
+          "shares": 15022073000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/"
+        },
+        {
+          "date": "2025-04-18",
+          "shares": 14935826000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/"
+        },
+        {
+          "date": "2025-07-18",
+          "shares": 14840390000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/"
+        },
+        {
+          "date": "2025-10-17",
+          "shares": 14776353000,
+          "form": "10-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/"
+        },
+        {
+          "date": "2026-01-16",
+          "shares": 14681140000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/"
+        },
+        {
+          "date": "2026-04-17",
+          "shares": 14687356000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/"
+        },
+        {
+          "date": "2026-07-17",
+          "shares": 14594180000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA CORP",
+      "cik": "0001045810",
+      "metrics": {
+        "revenue": {
+          "value": 215938000000,
+          "period_start": "2025-01-27",
+          "period_end": "2026-01-25",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json"
+        },
+        "net_income": {
+          "value": 120067000000,
+          "period_start": "2025-01-27",
+          "period_end": "2026-01-25",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json"
+        },
+        "diluted_eps": {
+          "value": 4.9,
+          "period_start": "2025-01-27",
+          "period_end": "2026-01-25",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json"
+        },
+        "operating_cash_flow": {
+          "value": 102718000000,
+          "period_start": "2025-01-27",
+          "period_end": "2026-01-25",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json"
+        },
+        "capex": {
+          "value": 6042000000,
+          "period_start": "2025-01-27",
+          "period_end": "2026-01-25",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json"
+        },
+        "equity": {
+          "value": 228984000000,
+          "period_start": null,
+          "period_end": "2026-07-26",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json"
+        }
+      },
+      "shares_history": [
+        {
+          "date": "2024-11-15",
+          "shares": 24490000000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/"
+        },
+        {
+          "date": "2025-02-21",
+          "shares": 24400000000,
+          "form": "10-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/"
+        },
+        {
+          "date": "2025-05-23",
+          "shares": 24400000000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/"
+        },
+        {
+          "date": "2025-08-22",
+          "shares": 24300000000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/"
+        },
+        {
+          "date": "2025-11-14",
+          "shares": 24300000000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/"
+        },
+        {
+          "date": "2026-02-20",
+          "shares": 24300000000,
+          "form": "10-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/"
+        },
+        {
+          "date": "2026-05-15",
+          "shares": 24200000000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/"
+        },
+        {
+          "date": "2026-08-21",
+          "shares": 24100000000,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "name": "AMAZON.COM, INC.",
+      "cik": "0001018724",
+      "metrics": {
+        "revenue": {
+          "value": 716924000000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+        },
+        "net_income": {
+          "value": 77670000000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+        },
+        "diluted_eps": {
+          "value": 7.17,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+        },
+        "operating_cash_flow": {
+          "value": 139514000000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+        },
+        "capex": {
+          "value": 131819000000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+        },
+        "equity": {
+          "value": 613601000000,
+          "period_start": null,
+          "period_end": "2026-09-30",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+        }
+      },
+      "shares_history": [
+        {
+          "date": "2025-01-29",
+          "shares": 10597729352,
+          "form": "10-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/"
+        },
+        {
+          "date": "2025-04-23",
+          "shares": 10616352407,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/"
+        },
+        {
+          "date": "2025-07-23",
+          "shares": 10664912097,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/"
+        },
+        {
+          "date": "2025-10-22",
+          "shares": 10690216011,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/"
+        },
+        {
+          "date": "2026-01-28",
+          "shares": 10734920870,
+          "form": "10-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/"
+        },
+        {
+          "date": "2026-04-22",
+          "shares": 10757109436,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/"
+        },
+        {
+          "date": "2026-07-22",
+          "shares": 10786313572,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/"
+        },
+        {
+          "date": "2026-10-21",
+          "shares": 10813138306,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/"
+        }
+      ]
+    },
+    {
+      "ticker": "SOFI",
+      "name": "SoFi Technologies, Inc.",
+      "cik": "0001818874",
+      "metrics": {
+        "revenue": {
+          "value": 619353000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json"
+        },
+        "net_income": {
+          "value": 481320000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json"
+        },
+        "diluted_eps": {
+          "value": 0.39,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json"
+        },
+        "operating_cash_flow": {
+          "value": -3742458000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json"
+        },
+        "capex": {
+          "value": 242444000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json"
+        },
+        "equity": {
+          "value": 11076227000,
+          "period_start": null,
+          "period_end": "2026-06-30",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json"
+        }
+      },
+      "shares_history": [
+        {
+          "date": "2024-10-31",
+          "shares": 1085146875,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887424000233/"
+        },
+        {
+          "date": "2025-01-31",
+          "shares": 1096540215,
+          "form": "10-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887425000016/"
+        },
+        {
+          "date": "2025-04-30",
+          "shares": 1105363096,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887425000072/"
+        },
+        {
+          "date": "2025-07-31",
+          "shares": 1197450100,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887425000180/"
+        },
+        {
+          "date": "2025-10-31",
+          "shares": 1205903044,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887425000210/"
+        },
+        {
+          "date": "2026-01-30",
+          "shares": 1275263850,
+          "form": "10-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000013/"
+        },
+        {
+          "date": "2026-04-30",
+          "shares": 1282741200,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/"
+        },
+        {
+          "date": "2026-07-31",
+          "shares": 1291570324,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000054/"
+        }
+      ]
+    },
+    {
+      "ticker": "SOUN",
+      "name": "SOUNDHOUND AI, INC.",
+      "cik": "0001840856",
+      "metrics": {
+        "revenue": {
+          "value": 168920000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001840856.json"
+        },
+        "net_income": {
+          "value": -14006000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001840856.json"
+        },
+        "diluted_eps": {
+          "value": -0.28,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001840856.json"
+        },
+        "operating_cash_flow": {
+          "value": -98222000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001840856.json"
+        },
+        "capex": {
+          "value": 902000,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001840856.json"
+        },
+        "equity": {
+          "value": 490430000,
+          "period_start": null,
+          "period_end": "2026-06-30",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001840856.json"
+        }
+      },
+      "shares_history": []
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN Limited",
+      "cik": "0001878848",
+      "metrics": {
+        "revenue": {
+          "value": 707007000,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001878848.json"
+        },
+        "net_income": {
+          "value": -702621000,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001878848.json"
+        },
+        "diluted_eps": {
+          "value": -2.22,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001878848.json"
+        },
+        "operating_cash_flow": {
+          "value": 2100418000,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001878848.json"
+        },
+        "capex": {
+          "value": 2998006000,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001878848.json"
+        },
+        "equity": {
+          "value": 4185613000,
+          "period_start": null,
+          "period_end": "2026-06-30",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001878848.json"
+        }
+      },
+      "shares_history": [
+        {
+          "date": "2025-10-31",
+          "shares": 283465490,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884825000081/"
+        },
+        {
+          "date": "2026-01-30",
+          "shares": 332280383,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000015/"
+        },
+        {
+          "date": "2026-04-30",
+          "shares": 357378674,
+          "form": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000026/"
+        }
+      ]
+    }
+  ]
+}
