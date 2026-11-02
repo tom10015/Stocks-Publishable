@@ -82,6 +82,7 @@ def main():
                 "period":field(row,"PERIODOFREPORT","REPORTCALENDARORQUARTER","PERIOD_OF_REPORT"),
                 "form":field(row,"SUBMISSIONTYPE","SUBMISSION_TYPE","DOCUMENTTYPE")}
         print("13F submission keys:",len(byacc),flush=True)
+        # A source accession is retained for direct issuer/manager filing verification.
         managers={}
         try:
             for row in table(z,"COVERPAGE"):
