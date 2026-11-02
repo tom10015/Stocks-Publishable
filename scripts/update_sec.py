@@ -124,15 +124,15 @@ def run():
         raise SystemExit("SEC_CONTACT_EMAIL must be a real contact email. Set the GitHub Actions repository variable or environment variable.")
     agent=f"StocksPublishable/1.0 research {email}"
     tickers=json.loads(TICKERS_FILE.read_text())
-    if not isinstance(tickers,list) or len(tickers)>30 or not all(isinstance(t,str) and re.fullmatch(r"[A-Z0-9.\-]{1,12}",t) for t in tickers):
-        raise SystemExit("config/tickers.json must be a list of up to 30 supported ticker symbols")
+    if not isinstance(tickers,list) or len(tickers)>150 or not all(isinstance(t,str) and re.fullmatch(r"[A-Z0-9.\-]{1,12}",t) for t in tickers):
+        raise SystemExit("config/tickers.json must be a list of up to 150 supported ticker symbols")
     old={}
     if DATA_FILE.exists():
         previous=json.loads(DATA_FILE.read_text())
         old={x["ticker"]:x for x in previous.get("companies",[]) if x.get("ticker")}
     lookup=get_json("https://www.sec.gov/files/company_tickers.json",agent)
     by_ticker={v["ticker"].upper():(v["cik_str"],v.get("title",v["ticker"])) for v in lookup.values()}
-    records=[]; failures=[]
+    records=[]; failures=[]; refreshed=0
     for ticker in dict.fromkeys(tickers):
         if ticker not in by_ticker:
             failures.append(f"{ticker}: no SEC CIK mapping")
@@ -142,15 +142,19 @@ def run():
         try:
             time.sleep(.45)
             records.append(collect(ticker,int(cik),name,agent))
+            refreshed+=1
             print(f"{ticker}: SEC fundamentals retrieved")
         except Exception as e:
             failures.append(f"{ticker}: {e}")
             if ticker in old: records.append(old[ticker])
-    if not records:
+    if not refreshed:
         raise SystemExit("No SEC records were retrieved; preserving previous data. " + "; ".join(failures))
     obj={"updated_at":dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
          "source":"SEC EDGAR XBRL companyfacts (free public disclosures)",
          "notes":"Historical SEC issuer filings, not exchange quotes. Source licensing must be reviewed separately from site hosting.",
+         "requested_count":len(list(dict.fromkeys(tickers))),
+         "refreshed_count":refreshed,
+         "failed_count":len(failures),
          "companies":records}
     DATA_FILE.write_text(json.dumps(obj,indent=2,ensure_ascii=False)+"\n")
     print(f"Wrote {len(records)} issuers; warnings: {len(failures)}")
