@@ -1,6 +1,10 @@
 name: Refresh public SEC filings
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'config/tickers.json'
+      - 'scripts/update_sec.py'
   schedule:
     - cron: '19 7 * * 1,4'
 permissions:
@@ -11,7 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
