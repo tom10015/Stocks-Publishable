@@ -1,0 +1,1895 @@
+{
+  "updated_at": "2026-11-02",
+  "source": "SEC EDGAR issuer filing records",
+  "source_url": "https://www.sec.gov/search-filings",
+  "note": "Baseline contains 10-K and 10-Q entries inferred from dated SEC share-history filing references; automatic submissions collector adds 8-K and additional forms. Not a complete real-time feed.",
+  "tickers": {
+    "AAPL": [],
+    "ADC": [
+      {
+        "form": "10-Q",
+        "filed": "2026-10-20",
+        "description": "Issuer share-count filing",
+        "accession": "000091725126000076",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000091725126000076/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-30",
+        "description": "Issuer share-count filing",
+        "accession": "000091725126000063",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000091725126000063/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-21",
+        "description": "Issuer share-count filing",
+        "accession": "000091725126000047",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000091725126000047/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-10",
+        "description": "Issuer share-count filing",
+        "accession": "000091725126000013",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000091725126000013/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-10-21",
+        "description": "Issuer share-count filing",
+        "accession": "000110465925101233",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000110465925101233/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-07-31",
+        "description": "Issuer share-count filing",
+        "accession": "000155837025009887",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000155837025009887/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-04-22",
+        "description": "Issuer share-count filing",
+        "accession": "000155837025005142",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000155837025005142/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-02-11",
+        "description": "Issuer share-count filing",
+        "accession": "000155837025000803",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000155837025000803/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-10-22",
+        "description": "Issuer share-count filing",
+        "accession": "000155837024013452",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000155837024013452/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-07-23",
+        "description": "Issuer share-count filing",
+        "accession": "000155837024009974",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000155837024009974/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-04-23",
+        "description": "Issuer share-count filing",
+        "accession": "000155837024005482",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000155837024005482/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-02-13",
+        "description": "Issuer share-count filing",
+        "accession": "000155837024001056",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000155837024001056/"
+      }
+    ],
+    "AMZN": [],
+    "ASST": [
+      {
+        "form": "10-Q",
+        "filed": "2024-08-14",
+        "description": "Issuer share-count filing",
+        "accession": "000121390024069032",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1920406/000121390024069032/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-08-14",
+        "description": "Issuer share-count filing",
+        "accession": "000121390023067069",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1920406/000121390023067069/"
+      }
+    ],
+    "BA": [
+      {
+        "form": "10-Q",
+        "filed": "2026-10-27",
+        "description": "Issuer share-count filing",
+        "accession": "000162828026067508",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-28",
+        "description": "Issuer share-count filing",
+        "accession": "000162828026050038",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026050038/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-22",
+        "description": "Issuer share-count filing",
+        "accession": "000162828026026458",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026026458/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-01-30",
+        "description": "Issuer share-count filing",
+        "accession": "000162828026004357",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-10-29",
+        "description": "Issuer share-count filing",
+        "accession": "000162828025047023",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000162828025047023/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-07-29",
+        "description": "Issuer share-count filing",
+        "accession": "000001292725000062",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000062/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-04-23",
+        "description": "Issuer share-count filing",
+        "accession": "000001292725000031",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000031/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-02-03",
+        "description": "Issuer share-count filing",
+        "accession": "000001292725000015",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-10-23",
+        "description": "Issuer share-count filing",
+        "accession": "000001292724000082",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000082/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-07-31",
+        "description": "Issuer share-count filing",
+        "accession": "000001292724000055",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000055/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-04-24",
+        "description": "Issuer share-count filing",
+        "accession": "000001292724000025",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000025/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-01-31",
+        "description": "Issuer share-count filing",
+        "accession": "000001292724000010",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/12927/000001292724000010/"
+      }
+    ],
+    "BRK-B": [],
+    "CAN": [
+      {
+        "form": "20-F",
+        "filed": "2025-04-18",
+        "description": "Issuer share-count filing",
+        "accession": "000141057825000805",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1780652/000141057825000805/"
+      }
+    ],
+    "CLSK": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526338382",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526338382/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-11",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526217036",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526217036/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-02-05",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526039538",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526039538/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-11-25",
+        "description": "Issuer share-count filing",
+        "accession": "000119312525297510",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000119312525297510/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-07",
+        "description": "Issuer share-count filing",
+        "accession": "000082787625000005",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000082787625000005/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-08",
+        "description": "Issuer share-count filing",
+        "accession": "000095017025067219",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000095017025067219/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-02-06",
+        "description": "Issuer share-count filing",
+        "accession": "000095017025015470",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000095017025015470/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-12-03",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024132565",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000095017024132565/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-08-09",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024094891",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000095017024094891/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-09",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024056330",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000095017024056330/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-02-08",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024012812",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000095017024012812/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2023-12-01",
+        "description": "Issuer share-count filing",
+        "accession": "000095017023067339",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000095017023067339/"
+      }
+    ],
+    "CSCO": [
+      {
+        "form": "10-K",
+        "filed": "2026-09-02",
+        "description": "Issuer share-count filing",
+        "accession": "000085887726000132",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-19",
+        "description": "Issuer share-count filing",
+        "accession": "000085887726000078",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000078/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-02-17",
+        "description": "Issuer share-count filing",
+        "accession": "000085887726000021",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000021/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-18",
+        "description": "Issuer share-count filing",
+        "accession": "000085887725000171",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000171/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-09-03",
+        "description": "Issuer share-count filing",
+        "accession": "000085887725000111",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-20",
+        "description": "Issuer share-count filing",
+        "accession": "000085887725000033",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000033/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-02-18",
+        "description": "Issuer share-count filing",
+        "accession": "000085887725000007",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000007/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-11-19",
+        "description": "Issuer share-count filing",
+        "accession": "000085887724000030",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000030/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-09-05",
+        "description": "Issuer share-count filing",
+        "accession": "000085887724000017",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000017/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-21",
+        "description": "Issuer share-count filing",
+        "accession": "000085887724000007",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000007/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-02-20",
+        "description": "Issuer share-count filing",
+        "accession": "000085887724000003",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000003/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-11-21",
+        "description": "Issuer share-count filing",
+        "accession": "000085887723000031",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887723000031/"
+      }
+    ],
+    "DIS": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "description": "Issuer share-count filing",
+        "accession": "000174448926000057",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "description": "Issuer share-count filing",
+        "accession": "000174448926000037",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000037/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-02-02",
+        "description": "Issuer share-count filing",
+        "accession": "000174448926000019",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000019/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-11-13",
+        "description": "Issuer share-count filing",
+        "accession": "000174448925000155",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-06",
+        "description": "Issuer share-count filing",
+        "accession": "000174448925000136",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000136/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-07",
+        "description": "Issuer share-count filing",
+        "accession": "000174448925000098",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000098/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-02-05",
+        "description": "Issuer share-count filing",
+        "accession": "000174448925000067",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000067/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-11-14",
+        "description": "Issuer share-count filing",
+        "accession": "000174448924000276",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-08-07",
+        "description": "Issuer share-count filing",
+        "accession": "000174448924000232",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000232/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-07",
+        "description": "Issuer share-count filing",
+        "accession": "000174448924000152",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000152/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-02-07",
+        "description": "Issuer share-count filing",
+        "accession": "000174448924000081",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000081/"
+      },
+      {
+        "form": "10-K/A",
+        "filed": "2024-01-24",
+        "description": "Issuer share-count filing",
+        "accession": "000174448924000064",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000064/"
+      }
+    ],
+    "ENB": [
+      {
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526326752",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000119312526326752/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526213266",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000119312526213266/"
+      },
+      {
+        "form": "10-K/A",
+        "filed": "2026-03-10",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526100426",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000119312526100426/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-07",
+        "description": "Issuer share-count filing",
+        "accession": "000119312525270991",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000119312525270991/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-01",
+        "description": "Issuer share-count filing",
+        "accession": "000095017025101102",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000095017025101102/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-09",
+        "description": "Issuer share-count filing",
+        "accession": "000089572825000012",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000089572825000012/"
+      },
+      {
+        "form": "10-K/A",
+        "filed": "2025-03-11",
+        "description": "Issuer share-count filing",
+        "accession": "000119312525052058",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000119312525052058/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-11-01",
+        "description": "Issuer share-count filing",
+        "accession": "000089572824000028",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000089572824000028/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-08-02",
+        "description": "Issuer share-count filing",
+        "accession": "000089572824000020",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000089572824000020/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-10",
+        "description": "Issuer share-count filing",
+        "accession": "000089572824000013",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000089572824000013/"
+      },
+      {
+        "form": "10-K/A",
+        "filed": "2024-03-13",
+        "description": "Issuer share-count filing",
+        "accession": "000119312524066168",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000119312524066168/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-11-03",
+        "description": "Issuer share-count filing",
+        "accession": "000089572823000033",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/895728/000089572823000033/"
+      }
+    ],
+    "ET": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "description": "Issuer share-count filing",
+        "accession": "000127618726000038",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618726000038/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "description": "Issuer share-count filing",
+        "accession": "000127618726000026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618726000026/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-19",
+        "description": "Issuer share-count filing",
+        "accession": "000127618726000013",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618726000013/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-06",
+        "description": "Issuer share-count filing",
+        "accession": "000127618725000119",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618725000119/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-07",
+        "description": "Issuer share-count filing",
+        "accession": "000127618725000086",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618725000086/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-08",
+        "description": "Issuer share-count filing",
+        "accession": "000127618725000056",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618725000056/"
+      },
+      {
+        "form": "10-K/A",
+        "filed": "2025-03-13",
+        "description": "Issuer share-count filing",
+        "accession": "000127618725000037",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618725000037/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-11-07",
+        "description": "Issuer share-count filing",
+        "accession": "000127618724000108",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618724000108/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-08-08",
+        "description": "Issuer share-count filing",
+        "accession": "000127618724000083",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618724000083/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-09",
+        "description": "Issuer share-count filing",
+        "accession": "000127618724000040",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618724000040/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-02-16",
+        "description": "Issuer share-count filing",
+        "accession": "000127618724000024",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618724000024/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-11-02",
+        "description": "Issuer share-count filing",
+        "accession": "000127618723000093",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618723000093/"
+      }
+    ],
+    "F": [],
+    "FINV": [],
+    "GE": [
+      {
+        "form": "10-Q",
+        "filed": "2026-10-20",
+        "description": "Issuer share-count filing",
+        "accession": "000004054526000064",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-16",
+        "description": "Issuer share-count filing",
+        "accession": "000004054526000049",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000049/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-21",
+        "description": "Issuer share-count filing",
+        "accession": "000004054526000027",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000027/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-01-29",
+        "description": "Issuer share-count filing",
+        "accession": "000004054526000008",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-10-21",
+        "description": "Issuer share-count filing",
+        "accession": "000004054525000132",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000132/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-07-21",
+        "description": "Issuer share-count filing",
+        "accession": "000004054525000111",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000111/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-04-22",
+        "description": "Issuer share-count filing",
+        "accession": "000004054525000062",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000062/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-02-03",
+        "description": "Issuer share-count filing",
+        "accession": "000004054525000015",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-10-22",
+        "description": "Issuer share-count filing",
+        "accession": "000004054524000200",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000200/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-07-23",
+        "description": "Issuer share-count filing",
+        "accession": "000004054524000176",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000176/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-04-23",
+        "description": "Issuer share-count filing",
+        "accession": "000004054524000113",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000113/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-02-02",
+        "description": "Issuer share-count filing",
+        "accession": "000004054524000027",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000027/"
+      }
+    ],
+    "HD": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-25",
+        "description": "Issuer share-count filing",
+        "accession": "000162828026058715",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026058715/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-27",
+        "description": "Issuer share-count filing",
+        "accession": "000162828026038247",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026038247/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-03-18",
+        "description": "Issuer share-count filing",
+        "accession": "000162828026019436",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-25",
+        "description": "Issuer share-count filing",
+        "accession": "000162828025053868",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828025053868/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-26",
+        "description": "Issuer share-count filing",
+        "accession": "000035495025000217",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000217/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-28",
+        "description": "Issuer share-count filing",
+        "accession": "000035495025000165",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000165/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-03-21",
+        "description": "Issuer share-count filing",
+        "accession": "000035495025000085",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-11-19",
+        "description": "Issuer share-count filing",
+        "accession": "000035495024000240",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000240/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-08-20",
+        "description": "Issuer share-count filing",
+        "accession": "000035495024000201",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000201/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-21",
+        "description": "Issuer share-count filing",
+        "accession": "000035495024000152",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000152/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-03-13",
+        "description": "Issuer share-count filing",
+        "accession": "000035495024000062",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000062/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-11-21",
+        "description": "Issuer share-count filing",
+        "accession": "000035495023000240",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495023000240/"
+      }
+    ],
+    "INTC": [
+      {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "description": "Issuer share-count filing",
+        "accession": "000005086326000191",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-24",
+        "description": "Issuer share-count filing",
+        "accession": "000005086326000157",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-24",
+        "description": "Issuer share-count filing",
+        "accession": "000005086326000079",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000079/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-01-23",
+        "description": "Issuer share-count filing",
+        "accession": "000005086326000011",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-06",
+        "description": "Issuer share-count filing",
+        "accession": "000005086325000179",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000179/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-07-24",
+        "description": "Issuer share-count filing",
+        "accession": "000005086325000109",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000109/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-04-25",
+        "description": "Issuer share-count filing",
+        "accession": "000005086325000074",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000074/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-01-31",
+        "description": "Issuer share-count filing",
+        "accession": "000005086325000009",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-11-01",
+        "description": "Issuer share-count filing",
+        "accession": "000005086324000149",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000149/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-08-02",
+        "description": "Issuer share-count filing",
+        "accession": "000005086324000124",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000124/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-04-26",
+        "description": "Issuer share-count filing",
+        "accession": "000005086324000076",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000076/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-01-26",
+        "description": "Issuer share-count filing",
+        "accession": "000005086324000010",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000010/"
+      }
+    ],
+    "IREN": [],
+    "KGC": [
+      {
+        "form": "40-F",
+        "filed": "2026-03-26",
+        "description": "Issuer share-count filing",
+        "accession": "000110465926035268",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/701818/000110465926035268/"
+      },
+      {
+        "form": "40-F",
+        "filed": "2025-03-27",
+        "description": "Issuer share-count filing",
+        "accession": "000110465925028819",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/701818/000110465925028819/"
+      },
+      {
+        "form": "40-F",
+        "filed": "2024-03-27",
+        "description": "Issuer share-count filing",
+        "accession": "000110465924039723",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/701818/000110465924039723/"
+      }
+    ],
+    "LTC": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "description": "Issuer share-count filing",
+        "accession": "000110465926091183",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000110465926091183/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "description": "Issuer share-count filing",
+        "accession": "000110465926056329",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000110465926056329/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-24",
+        "description": "Issuer share-count filing",
+        "accession": "000110465926019178",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000110465926019178/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-04",
+        "description": "Issuer share-count filing",
+        "accession": "000110465925106323",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000110465925106323/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-04",
+        "description": "Issuer share-count filing",
+        "accession": "000155837025010115",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000155837025010115/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-05",
+        "description": "Issuer share-count filing",
+        "accession": "000155837025006304",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000155837025006304/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "description": "Issuer share-count filing",
+        "accession": "000155837025001395",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000155837025001395/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-10-28",
+        "description": "Issuer share-count filing",
+        "accession": "000155837024013751",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000155837024013751/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-07-29",
+        "description": "Issuer share-count filing",
+        "accession": "000155837024010291",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000155837024010291/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-04-29",
+        "description": "Issuer share-count filing",
+        "accession": "000155837024006117",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000155837024006117/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-02-15",
+        "description": "Issuer share-count filing",
+        "accession": "000155837024001256",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000155837024001256/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-10-26",
+        "description": "Issuer share-count filing",
+        "accession": "000155837023016867",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000155837023016867/"
+      }
+    ],
+    "MAIN": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-07",
+        "description": "Issuer share-count filing",
+        "accession": "000139644026000094",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000094/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-08",
+        "description": "Issuer share-count filing",
+        "accession": "000139644026000073",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000073/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-27",
+        "description": "Issuer share-count filing",
+        "accession": "000139644026000016",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000016/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-07",
+        "description": "Issuer share-count filing",
+        "accession": "000139644025000184",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644025000184/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-08",
+        "description": "Issuer share-count filing",
+        "accession": "000139644025000102",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644025000102/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-09",
+        "description": "Issuer share-count filing",
+        "accession": "000139644025000068",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644025000068/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-02-28",
+        "description": "Issuer share-count filing",
+        "accession": "000139644025000018",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644025000018/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-11-08",
+        "description": "Issuer share-count filing",
+        "accession": "000139644024000236",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644024000236/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-08-09",
+        "description": "Issuer share-count filing",
+        "accession": "000139644024000154",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644024000154/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-10",
+        "description": "Issuer share-count filing",
+        "accession": "000139644024000082",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644024000082/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "description": "Issuer share-count filing",
+        "accession": "000139644024000055",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644024000055/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-11-03",
+        "description": "Issuer share-count filing",
+        "accession": "000139644023000140",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644023000140/"
+      }
+    ],
+    "MO": [
+      {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "description": "Issuer share-count filing",
+        "accession": "000076418026000114",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000114/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-30",
+        "description": "Issuer share-count filing",
+        "accession": "000076418026000094",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000094/"
+      },
+      {
+        "form": "10-K/A",
+        "filed": "2026-05-27",
+        "description": "Issuer share-count filing",
+        "accession": "000076418026000077",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000077/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-30",
+        "description": "Issuer share-count filing",
+        "accession": "000076418026000058",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000058/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-10-30",
+        "description": "Issuer share-count filing",
+        "accession": "000076418025000130",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418025000130/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-07-30",
+        "description": "Issuer share-count filing",
+        "accession": "000076418025000111",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418025000111/"
+      },
+      {
+        "form": "10-K/A",
+        "filed": "2025-06-04",
+        "description": "Issuer share-count filing",
+        "accession": "000076418025000092",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418025000092/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-04-29",
+        "description": "Issuer share-count filing",
+        "accession": "000076418025000049",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418025000049/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-10-31",
+        "description": "Issuer share-count filing",
+        "accession": "000076418024000102",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418024000102/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-07-31",
+        "description": "Issuer share-count filing",
+        "accession": "000076418024000093",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418024000093/"
+      },
+      {
+        "form": "10-K/A",
+        "filed": "2024-06-05",
+        "description": "Issuer share-count filing",
+        "accession": "000076418024000079",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418024000079/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-04-25",
+        "description": "Issuer share-count filing",
+        "accession": "000076418024000057",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418024000057/"
+      }
+    ],
+    "NKE": [],
+    "NOK": [
+      {
+        "form": "20-F",
+        "filed": "2026-03-05",
+        "description": "Issuer share-count filing",
+        "accession": "000162828026015034",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/924613/000162828026015034/"
+      },
+      {
+        "form": "20-F",
+        "filed": "2025-03-13",
+        "description": "Issuer share-count filing",
+        "accession": "000092461325000008",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/924613/000092461325000008/"
+      },
+      {
+        "form": "20-F",
+        "filed": "2024-02-29",
+        "description": "Issuer share-count filing",
+        "accession": "000092461324000013",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/924613/000092461324000013/"
+      }
+    ],
+    "NVDA": [],
+    "O": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "description": "Issuer share-count filing",
+        "accession": "000072672826000048",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000048/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "description": "Issuer share-count filing",
+        "accession": "000072672826000030",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000030/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-25",
+        "description": "Issuer share-count filing",
+        "accession": "000072672826000011",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000011/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-04",
+        "description": "Issuer share-count filing",
+        "accession": "000072672825000148",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672825000148/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-07",
+        "description": "Issuer share-count filing",
+        "accession": "000072672825000131",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672825000131/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-06",
+        "description": "Issuer share-count filing",
+        "accession": "000072672825000096",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672825000096/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "description": "Issuer share-count filing",
+        "accession": "000072672825000055",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672825000055/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-11-05",
+        "description": "Issuer share-count filing",
+        "accession": "000072672824000130",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672824000130/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-08-06",
+        "description": "Issuer share-count filing",
+        "accession": "000072672824000118",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672824000118/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-07",
+        "description": "Issuer share-count filing",
+        "accession": "000072672824000077",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672824000077/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-02-21",
+        "description": "Issuer share-count filing",
+        "accession": "000072672824000047",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672824000047/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-11-07",
+        "description": "Issuer share-count filing",
+        "accession": "000072672823000115",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000072672823000115/"
+      }
+    ],
+    "OBDC": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "description": "Issuer share-count filing",
+        "accession": "000165588826000056",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588826000056/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "description": "Issuer share-count filing",
+        "accession": "000165588826000033",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588826000033/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-18",
+        "description": "Issuer share-count filing",
+        "accession": "000165588826000010",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588826000010/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-05",
+        "description": "Issuer share-count filing",
+        "accession": "000165588825000024",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588825000024/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-06",
+        "description": "Issuer share-count filing",
+        "accession": "000165588825000020",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588825000020/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-07",
+        "description": "Issuer share-count filing",
+        "accession": "000165588825000012",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588825000012/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "description": "Issuer share-count filing",
+        "accession": "000165588825000007",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588825000007/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-11-06",
+        "description": "Issuer share-count filing",
+        "accession": "000165588824000023",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588824000023/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-08-07",
+        "description": "Issuer share-count filing",
+        "accession": "000165588824000019",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588824000019/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-08",
+        "description": "Issuer share-count filing",
+        "accession": "000165588824000014",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588824000014/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-02-21",
+        "description": "Issuer share-count filing",
+        "accession": "000165588824000008",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588824000008/"
+      },
+      {
+        "form": "10-Q/A",
+        "filed": "2023-11-09",
+        "description": "Issuer share-count filing",
+        "accession": "000165588823000031",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588823000031/"
+      }
+    ],
+    "ORCL": [
+      {
+        "form": "10-Q",
+        "filed": "2026-09-11",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526389274",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-06-22",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526277521",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-03-11",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526101045",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-12-11",
+        "description": "Issuer share-count filing",
+        "accession": "000119312525315925",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-09-10",
+        "description": "Issuer share-count filing",
+        "accession": "000119312525200095",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-06-18",
+        "description": "Issuer share-count filing",
+        "accession": "000095017025087926",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-03-11",
+        "description": "Issuer share-count filing",
+        "accession": "000095017025037143",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-12-10",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024134973",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-09-10",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024104905",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024104905/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-06-20",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024075605",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-03-12",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024029904",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024029904/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-12-12",
+        "description": "Issuer share-count filing",
+        "accession": "000095017023069682",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023069682/"
+      }
+    ],
+    "PEP": [
+      {
+        "form": "10-Q",
+        "filed": "2026-10-08",
+        "description": "Issuer share-count filing",
+        "accession": "000007747626000048",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000048/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-09",
+        "description": "Issuer share-count filing",
+        "accession": "000007747626000035",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000035/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-16",
+        "description": "Issuer share-count filing",
+        "accession": "000007747626000017",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000017/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-03",
+        "description": "Issuer share-count filing",
+        "accession": "000007747626000007",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-10-09",
+        "description": "Issuer share-count filing",
+        "accession": "000007747625000053",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000053/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-07-17",
+        "description": "Issuer share-count filing",
+        "accession": "000007747625000044",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000044/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-04-24",
+        "description": "Issuer share-count filing",
+        "accession": "000007747625000019",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000019/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-02-04",
+        "description": "Issuer share-count filing",
+        "accession": "000007747625000007",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-10-08",
+        "description": "Issuer share-count filing",
+        "accession": "000007747624000052",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747624000052/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-07-11",
+        "description": "Issuer share-count filing",
+        "accession": "000007747624000042",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747624000042/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-04-23",
+        "description": "Issuer share-count filing",
+        "accession": "000007747624000017",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747624000017/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-02-09",
+        "description": "Issuer share-count filing",
+        "accession": "000007747624000008",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747624000008/"
+      }
+    ],
+    "QUBT": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "description": "Issuer share-count filing",
+        "accession": "000162828026055218",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000162828026055218/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-11",
+        "description": "Issuer share-count filing",
+        "accession": "000121390026054473",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390026054473/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-03-02",
+        "description": "Issuer share-count filing",
+        "accession": "000121390026022417",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390026022417/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-14",
+        "description": "Issuer share-count filing",
+        "accession": "000121390025110814",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390025110814/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-08-14",
+        "description": "Issuer share-count filing",
+        "accession": "000121390025076846",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390025076846/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-05-15",
+        "description": "Issuer share-count filing",
+        "accession": "000121390025044341",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390025044341/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-03-20",
+        "description": "Issuer share-count filing",
+        "accession": "000121390025025561",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390025025561/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-11-06",
+        "description": "Issuer share-count filing",
+        "accession": "000121390024094983",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390024094983/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-10-02",
+        "description": "Issuer share-count filing",
+        "accession": "000121390024084727",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390024084727/"
+      },
+      {
+        "form": "10-K/A",
+        "filed": "2024-09-11",
+        "description": "Issuer share-count filing",
+        "accession": "000121390024077754",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390024077754/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-04-01",
+        "description": "Issuer share-count filing",
+        "accession": "000121390024028799",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390024028799/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-11-13",
+        "description": "Issuer share-count filing",
+        "accession": "000121390023086246",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390023086246/"
+      }
+    ],
+    "SBUX": [
+      {
+        "form": "10-Q",
+        "filed": "2026-07-29",
+        "description": "Issuer share-count filing",
+        "accession": "000082922426000130",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000130/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-28",
+        "description": "Issuer share-count filing",
+        "accession": "000082922426000080",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000080/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-01-28",
+        "description": "Issuer share-count filing",
+        "accession": "000082922426000011",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000011/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-11-14",
+        "description": "Issuer share-count filing",
+        "accession": "000082922425000114",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-07-29",
+        "description": "Issuer share-count filing",
+        "accession": "000082922425000058",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000058/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-04-29",
+        "description": "Issuer share-count filing",
+        "accession": "000082922425000034",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000034/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-01-28",
+        "description": "Issuer share-count filing",
+        "accession": "000082922425000014",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000014/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-11-20",
+        "description": "Issuer share-count filing",
+        "accession": "000082922424000057",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-07-30",
+        "description": "Issuer share-count filing",
+        "accession": "000082922424000042",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000042/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-04-30",
+        "description": "Issuer share-count filing",
+        "accession": "000082922424000024",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000024/"
+      },
+      {
+        "form": "10-Q/A",
+        "filed": "2024-02-16",
+        "description": "Issuer share-count filing",
+        "accession": "000119312524037988",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000119312524037988/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2023-11-17",
+        "description": "Issuer share-count filing",
+        "accession": "000082922423000058",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922423000058/"
+      }
+    ],
+    "SOFI": [],
+    "SOUN": [],
+    "T": [
+      {
+        "form": "10-Q",
+        "filed": "2026-10-21",
+        "description": "Issuer share-count filing",
+        "accession": "000073271726000372",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000372/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-07-22",
+        "description": "Issuer share-count filing",
+        "accession": "000073271726000297",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000297/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-04-27",
+        "description": "Issuer share-count filing",
+        "accession": "000073271726000206",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000206/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-09",
+        "description": "Issuer share-count filing",
+        "accession": "000073271726000120",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000120/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-10-31",
+        "description": "Issuer share-count filing",
+        "accession": "000073271725000171",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271725000171/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-07-24",
+        "description": "Issuer share-count filing",
+        "accession": "000073271725000080",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271725000080/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-04-29",
+        "description": "Issuer share-count filing",
+        "accession": "000073271725000023",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271725000023/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-02-12",
+        "description": "Issuer share-count filing",
+        "accession": "000073271725000013",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271725000013/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-10-29",
+        "description": "Issuer share-count filing",
+        "accession": "000073271724000059",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000059/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-07-25",
+        "description": "Issuer share-count filing",
+        "accession": "000073271724000053",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000053/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-02",
+        "description": "Issuer share-count filing",
+        "accession": "000073271724000022",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000022/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "description": "Issuer share-count filing",
+        "accession": "000073271724000009",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000009/"
+      }
+    ],
+    "TSLX": [
+      {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526332725",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000119312526332725/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526206313",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000119312526206313/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2026-02-12",
+        "description": "Issuer share-count filing",
+        "accession": "000119312526048664",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000119312526048664/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-11-04",
+        "description": "Issuer share-count filing",
+        "accession": "000119312525264618",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000119312525264618/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-07-30",
+        "description": "Issuer share-count filing",
+        "accession": "000095017025100204",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000095017025100204/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2025-04-30",
+        "description": "Issuer share-count filing",
+        "accession": "000095017025061008",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000095017025061008/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "description": "Issuer share-count filing",
+        "accession": "000095017025019845",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000095017025019845/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-11-05",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024121434",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000095017024121434/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-07-31",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024088524",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000095017024088524/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2024-05-01",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024051235",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000095017024051235/"
+      },
+      {
+        "form": "10-K",
+        "filed": "2024-02-15",
+        "description": "Issuer share-count filing",
+        "accession": "000095017024015845",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000095017024015845/"
+      },
+      {
+        "form": "10-Q",
+        "filed": "2023-11-02",
+        "description": "Issuer share-count filing",
+        "accession": "000095017023058321",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1508655/000095017023058321/"
+      }
+    ]
+  }
+}
