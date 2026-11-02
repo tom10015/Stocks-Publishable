@@ -94,3 +94,5 @@ def main():
     OUT.write_text(json.dumps(out,indent=2)+"\n")
 
 if __name__=="__main__":main()
+
+# Validation/deployment trigger: official-source collector only.
