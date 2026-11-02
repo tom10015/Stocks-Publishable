@@ -40,3 +40,25 @@ The new project uses an all-rights-reserved notice for its original site design 
 **Hosting credits:** Netlify’s current Free plan provides 300 monthly credits, and production deploys can use 15 credits each. Two updates per week typically mean about 8–10 monthly deployment events (plus any manual deploys and other usage). Monitor the limit in Netlify; the site may pause if exhausted.
 ## Why the explorer might have fewer companies than the configuration
 The website displays only companies already saved in `data/companies.json`, not a guessed set of tickers. The starter snapshot is 35 SEC issuers, and `config/tickers.json` has 76 configured names. To populate the remaining names, configure the `SEC_CONTACT_EMAIL` Actions variable and run **Actions → Refresh public SEC filings → Run workflow**. Issuers without appropriate SEC XBRL disclosures may have fewer metrics, including no reported share-count history.
+
+## Company Intelligence and Economy (November 2026)
+All tools preserve the original ShareWatch navy/mint styling, and existing SEC Share Explorer and manual Options Analyzer remain independent.
+
+- `intelligence.html`: **Financial Health & Risk Scoring** (five transparent equal-weight tests; at least three reported tests needed), **Insider Buying & Selling** (verified non-derivative SEC Form 4 P/S reports), **Institutional Holdings** (strict official SEC Form 13F issuer-name matches only, not an exhaustive ownership tracker), **Dividend Safety** (matching annual SEC cash-flow/dividend concepts), **Financial Comparisons** (SEC periods shown separately), and **SEC Filing Alerts** (new-since-last-marked-seen browser alerts; no email or push notifications).
+- `economy.html`: BLS CPI-U and unemployment observations, Treasury total public debt outstanding (not yields). Displays source, observation period, last collection date and caveats.
+- `sources.html`: primary source documents and secondary-use restrictions; BLS attribution notice.
+
+### Automated data collection
+
+| Workflow | Script | Data file | Update cadence |
+| --- | --- | --- | --- |
+| Refresh public SEC filings | `scripts/update_sec.py` | `data/companies.json` | Monday/Thursday |
+| SEC filing events + insider disclosures | `scripts/update_filings.py`, `scripts/update_insiders.py` | `data/filings.json`, `data/insiders.json` | Monday/Thursday |
+| Official BLS and Treasury indicators | `scripts/update_economy.py` | `data/economy.json` | Monday/Wednesday/Friday |
+| SEC quarterly 13F disclosures | `scripts/update_institutions.py` | `data/institutions.json` | Monthly / manual |
+
+**Required setup for SEC collectors:** Set repository variable `SEC_CONTACT_EMAIL` in **Settings → Secrets and variables → Actions → Variables** to a real email used solely as a SEC fair-access contact. The economic collector does not require an API key. If SEC downloads fail, the collector does **not** invent records. GitHub workflows are provided but must complete successfully to populate fresh data.
+
+**Quarterly SEC data limitations:** Insider data may be delayed several months; only officially reported transaction code P/S lines are included. 13F data are large (~100 MB zipped) and contain securities by issuer name, not ticker. The importer matches only exact normalized names of known issuers and excludes ambiguous names. This deliberately omits many holdings rather than making questionable claims. 13F reports are not proof of institutional ownership percentages or recent trades. Do not distribute proprietary CUSIP identifier mappings.
+
+**Monetization caution:** The sources used here are generally public federal data; you own your original implementation, not the underlying government facts. Assess permissions for individual issuer-provided attachments and future datasets; ensure paid hosting, privacy, consumer-protection, advertising, and investment-analysis compliance before commercialization. BLS requires: “BLS.gov cannot vouch for the data or analyses derived from these data after the data have been retrieved from BLS.gov.” Data access is subject to official API limits.
