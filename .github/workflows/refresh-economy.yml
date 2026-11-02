@@ -1,0 +1,36 @@
+name: Refresh public BLS and Treasury economic data
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_economy.py'
+  schedule:
+    - cron: '11 10 * * 1,3,5'
+permissions:
+  contents: write
+concurrency:
+  group: government-economy
+  cancel-in-progress: false
+jobs:
+  economy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Python
+        run: python -m py_compile scripts/update_economy.py
+      - name: Get official BLS and Treasury observations
+        run: python scripts/update_economy.py
+      - name: Commit published observations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/economy.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh sourced BLS and Treasury statistics"
+            git pull --rebase
+            git push
+          fi
