@@ -1,0 +1,44 @@
+name: Update SEC filing alerts and insider disclosures
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_filings.py'
+      - 'scripts/update_insiders.py'
+  schedule:
+    - cron: '23 9 * * 1,4'
+permissions:
+  contents: write
+concurrency:
+  group: sec-public-research
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 26
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate collector Python files
+        run: python -m py_compile scripts/update_filings.py scripts/update_insiders.py
+      - name: Collect dated SEC filings
+        env:
+          SEC_CONTACT_EMAIL: ${{ vars.SEC_CONTACT_EMAIL }}
+        run: python scripts/update_filings.py
+      - name: Collect official quarterly SEC insider purchases and sales
+        continue-on-error: true
+        env:
+          SEC_CONTACT_EMAIL: ${{ vars.SEC_CONTACT_EMAIL }}
+        run: python scripts/update_insiders.py
+      - name: Commit successfully collected public disclosures
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/filings.json data/insiders.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update official SEC filing and insider disclosure snapshots"
+            git pull --rebase
+            git push
+          fi
