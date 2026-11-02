@@ -3994,5 +3994,7 @@
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001508655.json",
       "checked_at": "2026-11-01T21:11:44.582990+00:00"
     }
-  ]
+  ],
+  "requested_count": 76,
+  "refreshed_count": 0
 }
