@@ -94,7 +94,9 @@
           "form": "10-Q",
           "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/"
         }
-      ]
+      ],
+      "source": "SEC EDGAR XBRL companyfacts",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json"
     },
     {
       "ticker": "ADC",
@@ -328,7 +330,9 @@
           "form": "10-Q",
           "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/"
         }
-      ]
+      ],
+      "source": "SEC EDGAR XBRL companyfacts",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
     },
     {
       "ticker": "ASST",
@@ -2027,7 +2031,9 @@
           "form": "10-Q",
           "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000026/"
         }
-      ]
+      ],
+      "source": "SEC EDGAR XBRL companyfacts",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001878848.json"
     },
     {
       "ticker": "KGC",
@@ -2718,7 +2724,9 @@
           "form": "10-Q",
           "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/"
         }
-      ]
+      ],
+      "source": "SEC EDGAR XBRL companyfacts",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json"
     },
     {
       "ticker": "O",
@@ -3589,12 +3597,6 @@
       "name": "SoFi Technologies, Inc.",
       "cik": "0001818874",
       "metrics": {
-        "revenue": {
-          "value": 619353000,
-          "period_start": "2025-01-01",
-          "period_end": "2025-12-31",
-          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json"
-        },
         "net_income": {
           "value": 481320000,
           "period_start": "2025-01-01",
@@ -3675,7 +3677,10 @@
           "form": "10-Q",
           "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000054/"
         }
-      ]
+      ],
+      "source": "SEC EDGAR XBRL companyfacts",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
+      "notes": "Revenue omitted: generic GAAP revenue concept may not reflect all bank and lending operations."
     },
     {
       "ticker": "SOUN",
@@ -3719,7 +3724,9 @@
           "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001840856.json"
         }
       },
-      "shares_history": []
+      "shares_history": [],
+      "source": "SEC EDGAR XBRL companyfacts",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001840856.json"
     },
     {
       "ticker": "T",
