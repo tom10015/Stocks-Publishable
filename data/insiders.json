@@ -1,0 +1,1718 @@
+{
+  "updated_at": "2026-11-02T12:46:12.598801+00:00",
+  "source": "SEC EDGAR Forms 4, quarterly insider transactions dataset; selected verified non-derivative P/S lines",
+  "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+  "notes": "Snapshot is not live, not all trades or reporting persons are represented. P is reported purchase, S is reported sale; neither proves an exchange execution. Includes only verified Form 4 non-derivative items.",
+  "tickers": {
+    "IREN": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2025-09-16",
+          "filed": "2026-07-01",
+          "shares": 11958,
+          "price": 36.32,
+          "owner": "Guzowski Christopher",
+          "security": "Ordinary Shares",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000095010326009962/"
+        }
+      ]
+    },
+    "KGC": {
+      "period": "",
+      "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+      "transactions": []
+    },
+    "NVDA": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-21",
+          "filed": "2026-09-23",
+          "shares": 4499,
+          "price": 223.75,
+          "owner": "Teter Timothy S.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-21",
+          "filed": "2026-09-23",
+          "shares": 13478,
+          "price": 223.05,
+          "owner": "Teter Timothy S.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-21",
+          "filed": "2026-09-23",
+          "shares": 12483,
+          "price": 222.19,
+          "owner": "Teter Timothy S.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-18",
+          "filed": "2026-09-22",
+          "shares": 10000,
+          "price": 220.42,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000016/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-18",
+          "filed": "2026-09-22",
+          "shares": 1356000,
+          "price": 219.72,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000016/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-17",
+          "filed": "2026-09-18",
+          "shares": 9868,
+          "price": 219.59,
+          "owner": "Kress Colette",
+          "security": "Common",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-17",
+          "filed": "2026-09-18",
+          "shares": 20369,
+          "price": 219.02,
+          "owner": "Kress Colette",
+          "security": "Common",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-17",
+          "filed": "2026-09-18",
+          "shares": 4681,
+          "price": 218.01,
+          "owner": "Kress Colette",
+          "security": "Common",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-04",
+          "filed": "2026-09-08",
+          "shares": 197180,
+          "price": 230.4,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-04",
+          "filed": "2026-09-08",
+          "shares": 4611,
+          "price": 234,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-04",
+          "filed": "2026-09-08",
+          "shares": 182628,
+          "price": 233.46,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-04",
+          "filed": "2026-09-08",
+          "shares": 237820,
+          "price": 231.17,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-03",
+          "filed": "2026-09-08",
+          "shares": 200000,
+          "price": 229.87,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-03",
+          "filed": "2026-09-08",
+          "shares": 1293,
+          "price": 228.27,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-03",
+          "filed": "2026-09-08",
+          "shares": 198707,
+          "price": 227.7,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-02",
+          "filed": "2026-09-02",
+          "shares": 300000,
+          "price": 226.27,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-02",
+          "filed": "2026-09-02",
+          "shares": 300000,
+          "price": 220.08,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-02",
+          "filed": "2026-09-02",
+          "shares": 300000,
+          "price": 222.92,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-02",
+          "filed": "2026-09-02",
+          "shares": 300000,
+          "price": 224.07,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-01",
+          "filed": "2026-09-02",
+          "shares": 63501,
+          "price": 220.06,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-31",
+          "filed": "2026-09-02",
+          "shares": 9395,
+          "price": 218.53,
+          "owner": "Teter Timothy S.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-31",
+          "filed": "2026-09-02",
+          "shares": 6692,
+          "price": 216.84,
+          "owner": "Teter Timothy S.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-31",
+          "filed": "2026-09-02",
+          "shares": 13913,
+          "price": 217.95,
+          "owner": "Teter Timothy S.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-31",
+          "filed": "2026-09-02",
+          "shares": 447400,
+          "price": 220.1,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-31",
+          "filed": "2026-09-02",
+          "shares": 137600,
+          "price": 220.91,
+          "owner": "STEVENS MARK A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/"
+        }
+      ]
+    },
+    "QUBT": {
+      "period": "",
+      "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+      "transactions": []
+    },
+    "INTC": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "P",
+          "date": "2026-08-11",
+          "filed": "2026-08-14",
+          "shares": 105263,
+          "price": 95,
+          "owner": "TAN LIP BU",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000177/"
+        }
+      ]
+    },
+    "ASST": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "P",
+          "date": "2026-08-14",
+          "filed": "2026-08-18",
+          "shares": 15900,
+          "price": 12.54,
+          "owner": "Rochard Pierre",
+          "security": "Class A Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1920406/000162828026057539/"
+        }
+      ]
+    },
+    "T": {
+      "period": "",
+      "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+      "transactions": []
+    },
+    "LTC": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "P",
+          "date": "2026-08-12",
+          "filed": "2026-08-13",
+          "shares": 500,
+          "price": 38.3,
+          "owner": "Gruber David L",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000198705826000003/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-11",
+          "filed": "2026-08-13",
+          "shares": 3500,
+          "price": 38.3,
+          "owner": "Gruber David L",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000198705826000003/"
+        },
+        {
+          "type": "S",
+          "date": "2026-07-13",
+          "filed": "2026-07-14",
+          "shares": 3125,
+          "price": 39.54,
+          "owner": "TRICHE TIMOTHY",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/887905/000119842626000002/"
+        }
+      ]
+    },
+    "SOFI": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-21",
+          "filed": "2026-09-23",
+          "shares": 10203,
+          "price": 16.99,
+          "owner": "Keough Kelli",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000203245826000028/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-21",
+          "filed": "2026-09-23",
+          "shares": 18624,
+          "price": 17.5,
+          "owner": "Rishel Jeremy",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000193420026000011/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-20",
+          "filed": "2026-08-24",
+          "shares": 11286,
+          "price": 18,
+          "owner": "Keough Kelli",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000203245826000024/"
+        },
+        {
+          "type": "S",
+          "date": "2026-07-20",
+          "filed": "2026-07-21",
+          "shares": 10954,
+          "price": 17.19,
+          "owner": "Keough Kelli",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000203245826000022/"
+        }
+      ]
+    },
+    "ORCL": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-22",
+          "filed": "2026-09-23",
+          "shares": 2631,
+          "price": 151.7,
+          "owner": "Smith Maria",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000096/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-22",
+          "filed": "2026-09-23",
+          "shares": 22562,
+          "price": 151.59,
+          "owner": "Sicilia Michael D.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000094/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-16",
+          "filed": "2026-09-17",
+          "shares": 10882,
+          "price": 139.94,
+          "owner": "Sicilia Michael D.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000083/"
+        }
+      ]
+    },
+    "ADC": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "P",
+          "date": "2026-09-21",
+          "filed": "2026-09-23",
+          "shares": 1000,
+          "price": 67.55,
+          "owner": "Erlich Craig",
+          "security": "Common Shares",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000174796226000007/"
+        },
+        {
+          "type": "P",
+          "date": "2026-09-16",
+          "filed": "2026-09-17",
+          "shares": 20000,
+          "price": 68.78,
+          "owner": "RAKOLTA JOHN JR",
+          "security": "Common Shares",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000152815326000015/"
+        },
+        {
+          "type": "P",
+          "date": "2026-09-16",
+          "filed": "2026-09-17",
+          "shares": 7360,
+          "price": 68.06,
+          "owner": "Agree Joey",
+          "security": "Common Shares",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000134849026000006/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-31",
+          "filed": "2026-09-02",
+          "shares": 10000,
+          "price": 72.42,
+          "owner": "RAKOLTA JOHN JR",
+          "security": "Common Shares",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000152815326000013/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-28",
+          "filed": "2026-08-31",
+          "shares": 136,
+          "price": 73.52,
+          "owner": "RAKOLTA JOHN JR",
+          "security": "Common Shares",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000152815326000011/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-27",
+          "filed": "2026-08-31",
+          "shares": 20000,
+          "price": 73.23,
+          "owner": "RAKOLTA JOHN JR",
+          "security": "Common Shares",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000152815326000011/"
+        }
+      ]
+    },
+    "FINV": {
+      "period": "",
+      "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+      "transactions": []
+    },
+    "SOUN": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-17",
+          "filed": "2026-09-21",
+          "shares": 1552,
+          "price": 6.11,
+          "owner": "SROKA DIANA",
+          "security": "Class A Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1840856/000192048426000014/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-15",
+          "filed": "2026-09-17",
+          "shares": 71113,
+          "price": 6.33,
+          "owner": "ZAGORSEK MICHAEL",
+          "security": "Class A Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1840856/000192164026000018/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-15",
+          "filed": "2026-09-17",
+          "shares": 38730,
+          "price": 6.33,
+          "owner": "HOM JAMES MING",
+          "security": "Class A Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1840856/000192048126000017/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-15",
+          "filed": "2026-09-17",
+          "shares": 38730,
+          "price": 6.33,
+          "owner": "EMAMI MAJID",
+          "security": "Class A Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1840856/000192047526000022/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-15",
+          "filed": "2026-09-17",
+          "shares": 137290,
+          "price": 6.33,
+          "owner": "MOHAJER KEYVAN",
+          "security": "Class A Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1840856/000191799526000018/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-27",
+          "filed": "2026-08-31",
+          "shares": 1343,
+          "price": 7.15,
+          "owner": "SROKA DIANA",
+          "security": "Class A Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1840856/000192048426000010/"
+        }
+      ]
+    },
+    "ENB": {
+      "period": "",
+      "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+      "transactions": []
+    },
+    "CAN": {
+      "period": "",
+      "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+      "transactions": []
+    },
+    "PEP": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-07-27",
+          "filed": "2026-07-29",
+          "shares": 2900,
+          "price": 139.54,
+          "owner": "Flavell David",
+          "security": "PepsiCo, Inc. Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/77476/000184681226000003/"
+        }
+      ]
+    },
+    "TSLX": {
+      "period": "",
+      "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+      "transactions": []
+    },
+    "OBDC": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "P",
+          "date": "2026-08-28",
+          "filed": "2026-08-31",
+          "shares": 1000,
+          "price": 11.34,
+          "owner": "Kaye Eric A.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000119312526376791/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-20",
+          "filed": "2026-08-21",
+          "shares": 675,
+          "price": 11.29,
+          "owner": "Nicholson Logan",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000119312526361118/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-20",
+          "filed": "2026-08-21",
+          "shares": 2325,
+          "price": 11.29,
+          "owner": "Nicholson Logan",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1655888/000119312526361118/"
+        }
+      ]
+    },
+    "F": {
+      "period": "",
+      "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+      "transactions": []
+    },
+    "ET": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "P",
+          "date": "2026-08-19",
+          "filed": "2026-08-20",
+          "shares": 647968,
+          "price": 21.26,
+          "owner": "WARREN KELCY L",
+          "security": "Common Units",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000119312526359388/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-18",
+          "filed": "2026-08-20",
+          "shares": 352032,
+          "price": 21.27,
+          "owner": "WARREN KELCY L",
+          "security": "Common Units",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000119312526359388/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-07",
+          "filed": "2026-08-10",
+          "shares": 12359.37,
+          "price": 20.23,
+          "owner": "Perry James Richard",
+          "security": "Common Units",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1276187/000119312526342811/"
+        }
+      ]
+    },
+    "MO": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "P",
+          "date": "2026-09-09",
+          "filed": "2026-09-11",
+          "shares": 1500,
+          "price": 67.62,
+          "owner": "McQUADE KATHRYN B.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000102/"
+        }
+      ]
+    },
+    "BRK-B": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-28",
+          "filed": "2026-09-29",
+          "shares": 39700,
+          "price": 503.09,
+          "owner": "Jain Ajit",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000004/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-12",
+          "filed": "2026-08-13",
+          "shares": 45,
+          "price": 510.64,
+          "owner": "O'Sullivan Michael J.",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349574/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-12",
+          "filed": "2026-08-13",
+          "shares": 43,
+          "price": 513.61,
+          "owner": "O'Sullivan Michael J.",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349574/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-12",
+          "filed": "2026-08-13",
+          "shares": 400,
+          "price": 512.52,
+          "owner": "O'Sullivan Michael J.",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349574/"
+        }
+      ]
+    },
+    "DIS": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-01",
+          "filed": "2026-09-03",
+          "shares": 3618,
+          "price": 107.13,
+          "owner": "WOODFORD BRENT",
+          "security": "Disney Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026060488/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-19",
+          "filed": "2026-08-20",
+          "shares": 3596,
+          "price": 106.32,
+          "owner": "Roeder Paul M",
+          "security": "Disney Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026058293/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 7238,
+          "price": 105.31,
+          "owner": "WOODFORD BRENT",
+          "security": "Disney Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026057481/"
+        }
+      ]
+    },
+    "GE": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-08-11",
+          "filed": "2026-08-12",
+          "shares": 4898,
+          "price": 369.97,
+          "owner": "Giglietti Robert M.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000009/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-11",
+          "filed": "2026-08-12",
+          "shares": 5344,
+          "price": 369.88,
+          "owner": "Giglietti Robert M.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000009/"
+        },
+        {
+          "type": "S",
+          "date": "2026-07-24",
+          "filed": "2026-07-28",
+          "shares": 2279,
+          "price": 353.64,
+          "owner": "Ali Mohamed",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000007/"
+        },
+        {
+          "type": "S",
+          "date": "2026-07-24",
+          "filed": "2026-07-28",
+          "shares": 2782,
+          "price": 353.72,
+          "owner": "Ali Mohamed",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000007/"
+        },
+        {
+          "type": "S",
+          "date": "2026-07-24",
+          "filed": "2026-07-28",
+          "shares": 1266,
+          "price": 353.74,
+          "owner": "Ali Mohamed",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000007/"
+        },
+        {
+          "type": "S",
+          "date": "2026-07-24",
+          "filed": "2026-07-28",
+          "shares": 1769,
+          "price": 353.75,
+          "owner": "Ali Mohamed",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000007/"
+        },
+        {
+          "type": "S",
+          "date": "2026-07-23",
+          "filed": "2026-07-27",
+          "shares": 491,
+          "price": 347.9,
+          "owner": "Procacci Riccardo",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000007/"
+        },
+        {
+          "type": "S",
+          "date": "2026-07-23",
+          "filed": "2026-07-27",
+          "shares": 1026,
+          "price": 347.93,
+          "owner": "Procacci Riccardo",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000007/"
+        }
+      ]
+    },
+    "HD": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-10",
+          "filed": "2026-09-11",
+          "shares": 675,
+          "price": 305.95,
+          "owner": "Scardino Kimberly R",
+          "security": "$.05 Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000165/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-28",
+          "filed": "2026-08-31",
+          "shares": 2455,
+          "price": 328.77,
+          "owner": "Roseborough Teresa Wynn",
+          "security": "$.05 Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000158/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-26",
+          "filed": "2026-08-27",
+          "shares": 710,
+          "price": 336.76,
+          "owner": "Rowe Michael F.",
+          "security": "$.05 Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000156/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-19",
+          "filed": "2026-08-21",
+          "shares": 5989,
+          "price": 348.4,
+          "owner": "McPhail Richard V",
+          "security": "$.05 Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000152/"
+        }
+      ]
+    },
+    "NKE": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-09",
+          "filed": "2026-09-10",
+          "shares": 2559,
+          "price": 37.59,
+          "owner": "McCartney Philip",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000167/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-09",
+          "filed": "2026-09-10",
+          "shares": 3646,
+          "price": 37.59,
+          "owner": "Leinwand Robert",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000165/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-09",
+          "filed": "2026-09-10",
+          "shares": 3671,
+          "price": 37.59,
+          "owner": "Alagirisamy Venkatesh",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000163/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-07",
+          "filed": "2026-08-11",
+          "shares": 4867,
+          "price": 42.05,
+          "owner": "Montagne Amy",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000114/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-05",
+          "filed": "2026-08-07",
+          "shares": 524,
+          "price": 41.6,
+          "owner": "McCartney Philip",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000105/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-05",
+          "filed": "2026-08-07",
+          "shares": 890,
+          "price": 41.6,
+          "owner": "Alagirisamy Venkatesh",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000107/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-05",
+          "filed": "2026-08-07",
+          "shares": 2463,
+          "price": 41.6,
+          "owner": "Friend Matthew",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000103/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-05",
+          "filed": "2026-08-07",
+          "shares": 821,
+          "price": 41.6,
+          "owner": "Leinwand Robert",
+          "security": "Class B Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000109/"
+        }
+      ]
+    },
+    "SBUX": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-04",
+          "filed": "2026-09-09",
+          "shares": 2229,
+          "price": 105.6,
+          "owner": "BREWER BRADY",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000135/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-05",
+          "filed": "2026-08-06",
+          "shares": 2229,
+          "price": 105.99,
+          "owner": "BREWER BRADY",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000133/"
+        },
+        {
+          "type": "S",
+          "date": "2026-07-06",
+          "filed": "2026-07-08",
+          "shares": 2229,
+          "price": 104,
+          "owner": "BREWER BRADY",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000118/"
+        }
+      ]
+    },
+    "CLSK": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-08",
+          "filed": "2026-09-09",
+          "shares": 13216,
+          "price": 13.34,
+          "owner": "Monnig Taylor",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526386878/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-08",
+          "filed": "2026-09-09",
+          "shares": 12033,
+          "price": 13.34,
+          "owner": "Monnig Taylor",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526386878/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-04",
+          "filed": "2026-09-09",
+          "shares": 4513,
+          "price": 12.61,
+          "owner": "Monnig Taylor",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526386878/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-14",
+          "shares": 54,
+          "price": 11.51,
+          "owner": "Monnig Taylor",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526352934/"
+        }
+      ]
+    },
+    "O": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-10",
+          "filed": "2026-09-10",
+          "shares": 3475,
+          "price": 60.15,
+          "owner": "McLaughlin Gregory",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726728/000140305126000006/"
+        }
+      ]
+    },
+    "MAIN": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-24",
+          "shares": 35000,
+          "price": 58.55,
+          "owner": "Morris Jesse E",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000159607026000005/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-13",
+          "filed": "2026-08-14",
+          "shares": 500,
+          "price": 59.09,
+          "owner": "McHugh Ryan",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000166726026000009/"
+        },
+        {
+          "type": "P",
+          "date": "2026-08-13",
+          "filed": "2026-08-14",
+          "shares": 2050,
+          "price": 59.04,
+          "owner": "McHugh Ryan",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000166726026000009/"
+        }
+      ]
+    },
+    "AAPL": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-22",
+          "filed": "2026-09-24",
+          "shares": 2399,
+          "price": 340.06,
+          "owner": "Newstead Jennifer",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126037584/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-15",
+          "filed": "2026-09-17",
+          "shares": 1438,
+          "price": 330.19,
+          "owner": "Newstead Jennifer",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126037020/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-08",
+          "filed": "2026-09-10",
+          "shares": 1438,
+          "price": 317.23,
+          "owner": "Newstead Jennifer",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126036226/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-01",
+          "filed": "2026-09-03",
+          "shares": 1439,
+          "price": 317.01,
+          "owner": "Newstead Jennifer",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126035636/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-25",
+          "filed": "2026-08-27",
+          "shares": 1439,
+          "price": 310.95,
+          "owner": "Newstead Jennifer",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126034741/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-18",
+          "filed": "2026-08-20",
+          "shares": 1439,
+          "price": 307.49,
+          "owner": "Newstead Jennifer",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126033928/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-11",
+          "filed": "2026-08-13",
+          "shares": 1439,
+          "price": 307.75,
+          "owner": "Newstead Jennifer",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126032884/"
+        }
+      ]
+    },
+    "BA": {
+      "period": "",
+      "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+      "transactions": []
+    },
+    "AMZN": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-01",
+          "filed": "2026-09-03",
+          "shares": 1000,
+          "price": 254.77,
+          "owner": "Herrington Douglas J",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000024/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-24",
+          "filed": "2026-08-25",
+          "shares": 9258,
+          "price": 259.77,
+          "owner": "Zapolsky David",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 7514,
+          "price": 259.61,
+          "owner": "Jassy Andrew R",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 7478,
+          "price": 258.67,
+          "owner": "Jassy Andrew R",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 3197,
+          "price": 257.63,
+          "owner": "Jassy Andrew R",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 1811,
+          "price": 260.39,
+          "owner": "Jassy Andrew R",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 2159,
+          "price": 257.6,
+          "owner": "Garman Matthew S",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 1951,
+          "price": 260.34,
+          "owner": "Garman Matthew S",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 5240,
+          "price": 259.57,
+          "owner": "Garman Matthew S",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 5191,
+          "price": 258.66,
+          "owner": "Garman Matthew S",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000010/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 1825,
+          "price": 257.77,
+          "owner": "Herrington Douglas J",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000022/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 2412,
+          "price": 260.33,
+          "owner": "Herrington Douglas J",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000022/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 2125,
+          "price": 258.58,
+          "owner": "Herrington Douglas J",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000022/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 1138,
+          "price": 257.7,
+          "owner": "Zapolsky David",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 1119,
+          "price": 260.45,
+          "owner": "Zapolsky David",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 2133,
+          "price": 259.63,
+          "owner": "Zapolsky David",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 1782,
+          "price": 258.64,
+          "owner": "Zapolsky David",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 6172,
+          "price": 260.31,
+          "owner": "Olsavsky Brian T",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000163990226000008/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 780,
+          "price": 258.58,
+          "owner": "Reynolds Shelley",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000139733326000006/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 675,
+          "price": 257.77,
+          "owner": "Reynolds Shelley",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000139733326000006/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-21",
+          "filed": "2026-08-25",
+          "shares": 888,
+          "price": 260.33,
+          "owner": "Reynolds Shelley",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000139733326000006/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-17",
+          "filed": "2026-08-19",
+          "shares": 400,
+          "price": 265.09,
+          "owner": "Herrington Douglas J",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000020/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-17",
+          "filed": "2026-08-19",
+          "shares": 1900,
+          "price": 262.82,
+          "owner": "Herrington Douglas J",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000020/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-17",
+          "filed": "2026-08-19",
+          "shares": 1441,
+          "price": 262.05,
+          "owner": "Herrington Douglas J",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000020/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-03",
+          "filed": "2026-08-05",
+          "shares": 1000,
+          "price": 278.39,
+          "owner": "Herrington Douglas J",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000030/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-03",
+          "filed": "2026-08-05",
+          "shares": 1209649,
+          "price": 286.41,
+          "owner": "BEZOS JEFFREY P",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000028/"
+        },
+        {
+          "type": "S",
+          "date": "2026-07-01",
+          "filed": "2026-07-02",
+          "shares": 1000,
+          "price": 239.77,
+          "owner": "Herrington Douglas J",
+          "security": "Common Stock, par value $.01  per share",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000022/"
+        }
+      ]
+    },
+    "CSCO": {
+      "period": "2026 Q3",
+      "source_url": "https://www.sec.gov/files/datastandardsinnovation/data/insider-transactions-data-sets/2026q3_form345.zip",
+      "transactions": [
+        {
+          "type": "S",
+          "date": "2026-09-14",
+          "filed": "2026-09-14",
+          "shares": 312,
+          "price": 110.18,
+          "owner": "Subaiya Thimaya K.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000201528726000020/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-14",
+          "filed": "2026-09-14",
+          "shares": 680,
+          "price": 110.18,
+          "owner": "Tuszik Oliver",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000138/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-11",
+          "filed": "2026-09-14",
+          "shares": 1795,
+          "price": 108.87,
+          "owner": "Patterson Mark",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000137/"
+        },
+        {
+          "type": "S",
+          "date": "2026-09-08",
+          "filed": "2026-09-09",
+          "shares": 2274,
+          "price": 109.36,
+          "owner": "Fink Nichlas A",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000134/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-19",
+          "filed": "2026-08-20",
+          "shares": 3605,
+          "price": 111.75,
+          "owner": "Subaiya Thimaya K.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000201528726000017/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-19",
+          "filed": "2026-08-20",
+          "shares": 2227,
+          "price": 111,
+          "owner": "Subaiya Thimaya K.",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000201528726000017/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 900,
+          "price": 112.61,
+          "owner": "Patel Jeetendra I",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000128/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 4870,
+          "price": 111.58,
+          "owner": "Patel Jeetendra I",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000128/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 1300,
+          "price": 110.64,
+          "owner": "Patel Jeetendra I",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000128/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 100,
+          "price": 113.51,
+          "owner": "Patel Jeetendra I",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000128/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 4487,
+          "price": 111.6,
+          "owner": "Stahlkopf Deborah L",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000125/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 1300,
+          "price": 110.68,
+          "owner": "Stahlkopf Deborah L",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000125/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 700,
+          "price": 112.63,
+          "owner": "Stahlkopf Deborah L",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000125/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 3800,
+          "price": 110.59,
+          "owner": "Robbins Charles",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000124/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 300,
+          "price": 113.49,
+          "owner": "Robbins Charles",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000124/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 2699,
+          "price": 112.5,
+          "owner": "Robbins Charles",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000124/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 14829,
+          "price": 111.56,
+          "owner": "Robbins Charles",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000124/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 2760,
+          "price": 112.46,
+          "owner": "Tuszik Oliver",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000127/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 904,
+          "price": 110.6,
+          "owner": "Patterson Mark",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000126/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 3788,
+          "price": 111.6,
+          "owner": "Patterson Mark",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000126/"
+        },
+        {
+          "type": "S",
+          "date": "2026-08-14",
+          "filed": "2026-08-17",
+          "shares": 500,
+          "price": 112.52,
+          "owner": "Patterson Mark",
+          "security": "Common Stock",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000126/"
+        }
+      ]
+    },
+    "NOK": {
+      "period": "",
+      "source_url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+      "transactions": []
+    }
+  }
+}
