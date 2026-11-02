@@ -30,7 +30,7 @@ FINANCIAL_TAGS = {
     "cash": ["CashAndCashEquivalentsAtCarryingValue"],
     "assets": ["Assets"],
     "liabilities": ["Liabilities"],
-    "long_term_debt": ["LongTermDebtCurrent", "LongTermDebtNoncurrent", "LongTermDebt"],
+    "long_term_debt": ["LongTermDebtNoncurrent", "LongTermDebt"],
     "dividends_paid": ["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"],
     "repurchases": ["PaymentsForRepurchaseOfCommonStock"],
     "dividend_per_share": ["CommonStockDividendsPerShareDeclared"],
