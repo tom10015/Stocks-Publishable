@@ -112,7 +112,34 @@ def extract_shares(facts):
         old=by_date.get(x["end"])
         if not old or (entry["filed"] or "") > (old["filed"] or ""):
             by_date[x["end"]]=entry
-    return [by_date[d] for d in sorted(by_date)[-12:]]
+    return [by_date[d] for d in sorted(by_date)[-80:]]
+
+def historical_metrics(facts):
+    """Preserve dated, comparable annual SEC concepts without inventing missing years."""
+    out = {}
+    for key, tags in FINANCIAL_TAGS.items():
+        unit = "USD/shares" if key in {"diluted_eps", "dividend_per_share"} else "USD"
+        if key in {"equity", "cash", "assets", "liabilities", "long_term_debt"}:
+            # Balance-sheet point-in-time values require separate period selection.
+            continue
+        choices = {}
+        for priority, tag in enumerate(tags):
+            for x in facts.get("us-gaap", {}).get(tag, {}).get("units", {}).get(unit, []):
+                if not annual(x) or not isinstance(x.get("val"), (int, float)):
+                    continue
+                end = x.get("end")
+                if not end or not x.get("start"):
+                    continue
+                candidate = (x.get("filed", ""), -priority, x)
+                if end not in choices or candidate[:2] > choices[end][:2]:
+                    choices[end] = candidate
+        rows = []
+        for end, (_, _, x) in sorted(choices.items())[-12:]:
+            rows.append({"period_start": x["start"], "period_end": end, "value": x["val"],
+                         "filed": x.get("filed"), "form": x.get("form")})
+        if rows:
+            out[key] = rows
+    return out
 
 def collect(ticker, cik, name, agent):
     url=f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json"
@@ -132,7 +159,7 @@ def collect(ticker, cik, name, agent):
     for x in shares:
         x["source_url"]=url
     return {"ticker":ticker,"name":doc.get("entityName") or name,"cik":str(cik).zfill(10),
-            "metrics":metrics,"shares_history":shares,"source":"SEC EDGAR XBRL companyfacts", "source_url":url,
+            "metrics":metrics,"financial_history":historical_metrics(facts),"shares_history":shares,"source":"SEC EDGAR XBRL companyfacts", "source_url":url,
             "checked_at":dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()}
 
 def run():
