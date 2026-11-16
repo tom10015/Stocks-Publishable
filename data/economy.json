@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:41:03+00:00",
+  "updated_at": "2026-11-16T20:22:23+00:00",
   "source": "Official BLS Public Data API and U.S. Treasury Fiscal Data API",
   "sources": {
     "BLS": "https://www.bls.gov/developers/termsOfService.htm",
@@ -303,10 +303,6 @@
       "source_url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny",
       "note": "This is the total public debt outstanding, not market bond yields or the federal deficit.",
       "observations": [
-        {
-          "date": "2026-07-06",
-          "value": 39387881222485.61
-        },
         {
           "date": "2026-07-07",
           "value": 39414977491738.78
@@ -662,6 +658,10 @@
         {
           "date": "2026-11-10",
           "value": 40584130080272.89
+        },
+        {
+          "date": "2026-11-12",
+          "value": 40608506856903.25
         }
       ]
     }
